@@ -7,7 +7,8 @@ function increment() {
     countEl.innerText = count
 }
 function save() {
-    saveEl.innerText += count + "-"
+    let countStr = count + " - "
+    saveEl.textContent += countStr
     count = 0
 }
 
